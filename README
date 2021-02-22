@@ -3,7 +3,10 @@ the Casio fx-CG 50 AU calculator, meant to help you with slightly
 boring and repetetitve maths. Because coding in BASIC is boring.
 
 This is free software, released into the public domain as per the Unlicense.
-Do whatever the heck you want with this code, as far as the law permits.
+Do whatever you want with this code, as far as the law permits.
 See the LICENSE file for more details.
+
+All code in this collection meet & follow SonarSource rules.
+See https://rules.sonarsource.com/python for more detail
 
 Developed by http://github.com/hyperfresh
