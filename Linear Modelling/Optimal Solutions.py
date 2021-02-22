@@ -1,5 +1,7 @@
-print("Linear Programming\nOptimal Solution Finder\n")
+# Find an optimal solution for maximising or minimising a value.
+# Intended for linear programming tasks.
 
+print("Linear Programming\nOptimal Solution Finder\n")
 
 def optype():
     global optype
