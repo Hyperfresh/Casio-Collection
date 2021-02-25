@@ -8,8 +8,8 @@ print("Linear Programming:\nOptimal Solution\nFinder\n")
 
 def optype():
     global optype
-    optype = input("Max + or min -? ")
-    if optype != ("+" or "-"): optype()
+    optype = input("Max or min? ")
+    if optype != ("max" or "min"): optype()
 optype()
 
 x = float(input("Input x const: "))
