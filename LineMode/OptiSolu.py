@@ -9,7 +9,7 @@ print("Linear Programming:\nOptimal Solution\nFinder\n")
 def optype():
     global optype
     optype = input("Max or min? ")
-    if optype != ("max" or "min"): optype()
+    if optype not in ["max","min"]: optype()
 optype()
 
 x = float(input("Input x const: "))
@@ -19,7 +19,7 @@ print("To exit, enter '0' as\nvertex points for\nx and y.")
 def repeat():
     a = float(input("Input vertex x: "))
     b = float(input("Input vertex y: "))
-    if optype == "+":
+    if optype == "max":
         sol = round((x*a) + (y*b), 2)
     else:
         sol = round((x*a) - (y*b), 2)
